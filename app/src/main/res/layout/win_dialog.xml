@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/game_bg"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:id="@+id/dialog_text"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Siz bu oyinni\n g'olibiga aylandinggiz !!"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/back"
+        app:layout_constraintTop_toBottomOf="@id/dialog_text"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Back To Home"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:background="#CC0E0E"
+        android:textColor="@color/white"
+        android:layout_margin="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/restart"
+        app:layout_constraintTop_toBottomOf="@id/dialog_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Restart game"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:background="#37CC0E"
+        android:textColor="@color/white"
+        android:layout_margin="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
