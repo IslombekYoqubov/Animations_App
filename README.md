@@ -16,9 +16,9 @@ An Android application that demonstrates **core animation techniques in Android*
 ## Screenshots
 
 <div style="display: flex; gap: 12px; flex-wrap: wrap;">
-  <img src="images/animation_screen_1.jpg" alt="Animation Screen 1" style="width: 250px; height: auto;" />
-  <img src="images/animation_screen_2.jpg" alt="Animation Screen 2" style="width: 250px; height: auto;" />
-  <img src="images/animation_screen_3.jpg" alt="Animation Screen 3" style="width: 250px; height: auto;" />
+  <img src="images/animation_screen_1.jpg" alt="Animation Screen 1" style="width: 200px; height: auto;" />
+  <img src="images/animation_screen_2.jpg" alt="Animation Screen 2" style="width: 200px; height: auto;" />
+  <img src="images/animation_screen_3.jpg" alt="Animation Screen 3" style="width: 200px; height: auto;" />
 </div>
 
 ---
